@@ -1,0 +1,28 @@
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+}
+table,th,td {
+            border :2px;
+            border-color: #ed7e1d;
+         }
+        
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(226, 168, 218);
+    padding: 20px;
+}
+.right {
+    position: initial;
+    background-color: white;
+    padding: 20px;
+}
